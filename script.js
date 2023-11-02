@@ -93,8 +93,8 @@ function animate() {
                 ctx.lineTo(getX(x, y), getY(x, y));
             }
 
-            ctx.strokeStyle = `hsl(${0.48 * 360}, 100%, 50%)`;
-            ctx.lineWidth = 2;
+            ctx.strokeStyle = `hsl(${0.52 * 360}, 100%, 50%)`;
+            ctx.lineWidth = 1;
             ctx.stroke();
         }
     }
